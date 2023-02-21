@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include "main.h"
+#include<stdio.h>
 
+int main( )
 
-int main(void)
 {
-	char c[8] = "_putchar";
-	int i = 0;
+        for ( char c = 'A'; c <= 'Z'; c++)
 
-	while (i < 8)
-	{
-		_putchar(c[i]);
-		i++;
-	}
-	_putchar('\n');
-	return (0);
+{
+
+        putchar( c );
+
+
 }
+        return 0;
+
+}
+
