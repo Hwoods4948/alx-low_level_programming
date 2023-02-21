@@ -1,17 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "main.h"
 
-int main( )
-
+/**
+ * main - Entry point
+ *
+ * Description: A program that prints _putchar and new line
+ *
+ * Return: returns 0
+ **/
+int main(void)
 {
-        for ( char c = 'A'; c <= 'Z'; c++)
+	char c[8] = "_putchar";
+	int i = 0;
 
-{
-
-        putchar( c );
-
-
+	while (i < 8)
+	{
+		_putchar(c[i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
 }
-        return 0;
-
-}
-
