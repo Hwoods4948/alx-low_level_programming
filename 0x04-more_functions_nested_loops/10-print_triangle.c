@@ -4,7 +4,7 @@
  */
 
 void print_triangle(int size)
-i{
+{
 int x, y, z;
 if (size <= 0)
 {
